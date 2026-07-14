@@ -1,81 +1,72 @@
 <!DOCTYPE html>
-<html lang="npl">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Explore Nepal | Land of the Himalayas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-    <h1>Hello World</h1>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="ne">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoe Zone - Best Shoes Store</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
 
+    <!-- Header & Navigation -->
     <header>
-        <div class="logo">Shoe<span>Zone</span></div>
+        <div class="logo">Explore<span>Nepal</span></div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#treks">Treks</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
         <div class="hero-content">
-            <h2>Step Up Your Style</h2>
-            <p>Find the perfect pair for your everyday hustle. Comfort and style combined.</p>
-            <a href="#" class="btn">Shop Now</a>
+            <h1>Discover the Wonders of Nepal</h1>
+            <p>From majestic Himalayan peaks to rich cultural heritage.</p>
+
         </div>
     </section>
 
-    <main>
-        <h2 class="section-title">Our Best Sellers</h2>
-        <div class="product-grid">
-
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Sneaker Red">
-                <h3>Sporty Red Sneakers</h3>
-                <p class="price">Rs. 4,500</p>
-                <button class="add-to-cart">Add to Cart</button>
+    <!-- Popular Destinations Grid -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="assets/" alt="Kathmandu Valley">
+                <h3>Kathmandu</h3>
+                <p>Explore ancient temples and vibrant historic plazas.</p>
             </div>
-
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400" alt="Sneaker Colorful">
-                <h3>Casual Air Sneakers</h3>
-                <p class="price">Rs. 5,200</p>
-                <button class="add-to-cart">Add to Cart</button>
+            <div class="card">
+                <img src="assets/" alt="Pokhara Phewa Lake">
+                <h3>Pokhara</h3>
+                <p>The gateway to the Annapurna Circuit, featuring serene lakes.</p>
             </div>
-
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400" alt="Nike Lime">
-                <h3>Neon Sport Shoes</h3>
-                <p class="price">Rs. 6,000</p>
-                <button class="add-to-cart">Add to Cart</button>
+            <div class="card">
+                <img src="assets/" alt="Everest Base Camp">
+                <h3>Everest Region</h3>
+                <p>Home to the world's highest peak and iconic trekking routes.</p>
             </div>
-
         </div>
-    </main>
+    </section>
+
+    <!-- Contact & Booking Inquiry -->
+    <section id="contact" class="contact">
+        <h2>Plan Your Trip</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Tell us about your trip plans..."></textarea>
+            <button type="submit" class="btn">Send Inquiry</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2026 ShoeZone. All Rights Reserved.</p>
+        <p>&copy; 2026 Explore Nepal Travel. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
